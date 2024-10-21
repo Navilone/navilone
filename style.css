@@ -210,13 +210,16 @@ section .title::after {
   justify-content: space-between;
 }
 
-.navbar .logo a span {
+.navbar .max-width .logo a span {
   color: var(--main-bg-color);
   transition: all 0.3s ease;
 }
-.navbar.sticky .logo a span {
-  color: #fff;
+
+.navbar .max-width .logo a span {
+  color: var(--main-bg-color);
+  transition: all 0.3s ease;
 }
+
 .navbar .menu li {
   list-style: none;
   display: inline-block;
