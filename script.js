@@ -86,7 +86,10 @@ inputs.forEach((input) => {
 });
 
 
-// Sélectionner tous les boutons et tous les contenus
+// *****************************************Section article ******************************************* //
+
+
+
 const tabButtons = document.querySelectorAll('.tab-button');
 const tabContents = document.querySelectorAll('.content');
 const faqs = document.querySelectorAll('.tab-button')
@@ -107,6 +110,13 @@ tabButtons.forEach(button => {
     faqs.forEach
   });
 });
+
+
+
+
+// *********************************************Slider de logo***********************************************//
+
+
 
 var copy = document.querySelector(".logos-slide").cloneNode(true);
 document.querySelector(".logos").appendChild(copy);

@@ -502,6 +502,7 @@ section .title::after {
   margin: auto;
 }
 
+
 .articles h2{
   text-align: center;
 }
@@ -593,18 +594,152 @@ section .title::after {
 
 }
 
+.article-mobile{
+  display:none
+}
+
+
+
+@media (max-width: 991px) {
+
+  .articles{
+    display: none;
+  }
+
+  .article-mobile {
+  width: 100%;
+  height: 75vh;
+  display: flex!important;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-bottom: 100px ;
+  }
+  
+  .am-slide {
+  display: flex;
+  justify-content: start;
+
+  
+  }
+  
+  .am-slider {
+  border-radius: .75rem;
+  background-size: cover;
+  cursor: pointer;
+  overflow: hidden;
+  border-radius: 2rem;
+  margin: 0 10px;
+  margin-top: 10px;
+  display: flex;
+  align-items: flex-end;
+  transition: .6s cubic-bezier(.28,-0.03,0,.99);
+  box-shadow: 0px 10px 30px -5px rgba(0,0,0,0.8);
+  }
+  
+  .am-slider > .am-line {
+  color: white;
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: var(--main-bg-color);
+  padding: 10px 0 10px 0;
+  width: 100%;
+  }
+  
+  .am-slider > .am-line > .icon {
+  margin: 15px;
+  transform: rotate(90deg);
+  }
+  
+  .am-slider > .am-line > .am-description {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  overflow: hidden;
+  height: 80px;
+  width: 100%;
+  padding: 20px;
+  transition: all 0.3s ease;
+  }
+  
+  .am-description p {
+  color: var(--second-color);
+  padding-top: 5px;
+  }
+  
+  .am-description h4 {
+  text-transform: uppercase;
+  }
+  
+  .article-mobile .am-slide input {
+  display: none;
+  }
+  
+  .article-mobile .am-slide input:checked + label {
+  height: 300px;
+  margin-top: 10px;
+  
+  }
+  
+  .article-mobile .am-slide input:checked + label .am-description {
+  opacity: 1 !important;
+  transform: translateY(0) !important;
+  text-align: center;
+  }
+
+  .article-mobile .am-slide input:checked + label .icon svg {
+  transform: rotate(180deg) !important;
+  
+  }
+  
+  .am-slider[for="a1"] {
+  background-image: url('images/bh.png');
+  }
+  .am-slider[for="a2"] {
+  background-image: url('images/banner.png');
+  }
+  .am-slider[for="a3"] {
+  background-image: url('images/vg.png');
+  }
+  .am-slider[for="a4"] {
+  background-image: url('images/vv.png');
+  }
+  .am-slider[for="a5"] {
+  background-image: url('images/vf.png');
+  }
+  .am-slider[for="a6"] {
+  background-image: url('images/fd.png');
+  }
+
+  .am-slide{
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .am-description p {
+    font-size: 10px;
+  }
+
+  .article-mobile{
+    height: 115vh;
+  }
+}
+
 /****************************          about section styling             *******************************/
 
 
 .wrapper {
   width: 100%;
-  height: 65vh;
+  height: 75vh;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-
+  padding-bottom: 100px ;
+  background: url('data:image/svg+xml;charset=utf-8,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"%3E%3Cpath fill="none" stroke="%235078c0" stroke-width="4" d="M0,160 C120,120 240,200 360,240 C480,280 600,320 720,280 C840,240 960,160 1080,120 C1200,80 1320,40 1440,80 L1440,320 L0,320 Z" /%3E%3Cpath fill="none" stroke="%2397B9DB" stroke-width="3" d="M0,240 C160,160 320,80 480,120 C640,160 800,240 960,200 C1120,160 1280,80 1440,120 L1440,320 L0,320 Z" /%3E%3C/svg%3E') no-repeat center center;
+  background-size: cover;
 }
+
 .wrapper h2 {
   padding-top: 0;
 
@@ -642,7 +777,8 @@ section .title::after {
 }
 
 .slider > .line > .icon {
-  background: var(--main-bg-color);
+  background: rgb(80,120,192);
+  background: linear-gradient(90deg, rgba(80,120,192,1) 0%, rgba(241,241,241,1) 100%); 
   color: var(--second-color);
   border-radius: 50%;
   width: 50px;
@@ -688,16 +824,16 @@ section .title::after {
 }
 
 .slider[for="c1"] {
-  background-image: url('images/banner.png');
+  background-image: url('images/bh.png');
 }
 .slider[for="c2"] {
   background-image: url('images/banner.png');
 }
 .slider[for="c3"] {
-  background-image: url('images/banner.png');
+  background-image: url('images/vg.png');
 }
 .slider[for="c4"] {
-  background-image: url('images/banner.png');
+  background-image: url('images/vv.png');
 }
 
 
@@ -1239,9 +1375,28 @@ ul {
 
 
 
-/**********************************************************************MEDIA***********************************************************/ 
+/*************************************************************************************************************************************
+**************************************************************************************************************************************
+***********************************************MEDIA**********************************************************************************
+**************************************************************************************************************************************
+*******************************************************************************************/ 
 
 
+
+
+
+
+
+
+
+
+
+@media (min-width: 850px) {
+
+  .article-mobile{
+    display:none;
+  }
+}
 
 
 
@@ -1297,6 +1452,28 @@ ul {
   }
   .articles .articlesl{
     width: 100%;
+  }
+
+  .articles .container-articles{
+    flex-wrap: wrap;
+    padding: 0;
+  }
+  .articles .container-articles .articlesl .tab-button .case-contain svg{
+    transform: rotate(90deg);
+  }
+  .articlesr{
+    display: none;
+  }
+
+  .article-mobile .visuel img{
+    width:100%; 
+    border-radius: 50px;
+    padding-top:5px;
+
+  }
+
+   .articles .container-articles .articlesl .tab-button:active .case-contain svg{
+    transform: rotate(-90deg);
   }
 }
 
@@ -1362,10 +1539,7 @@ ul {
   .title {
     margin-bottom: 5px;
   }
-  .articles .container-articles{
-    flex-wrap: wrap;
-    padding: 0;
-  }
+ 
 }
 
 @media (max-width: 991px) {
@@ -1389,9 +1563,11 @@ ul {
   .wrapper .slide input:checked + label{
     width:95%
   }
+
   .articles .articlesr .content .visuel p{
     font-size: 13px;
   }
+  
   .contact-button{
     position: relative; 
 
@@ -1407,6 +1583,7 @@ ul {
     max-width: 400px;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
   }
+  
   .contact-button img{
     display: block;
     position: absolute;
@@ -1491,6 +1668,10 @@ ul {
 
   .home::before {
     clip-path: polygon(100% 0px, -1500% 0px, 71% 10%, 71% 66%, 0% 89%, 0% 100%, 100% 100%);
+    }
+
+    .articlesl, .articlesr{
+      display:none
     }
 }
 
