@@ -230,7 +230,6 @@ section .title::after {
   font-size: 18px;
   font-weight: 500;
   margin-left: 25px;
-  transition: color 0.5s ease;
   padding: 10px;
 }
 
@@ -1178,7 +1177,14 @@ ul {
 
 
 
+
+
 /**********************************************************************MENTION LEGALE***********************************************************/ 
+
+
+
+
+
 
 .mention .max-width{
   padding-top: 180px; 
@@ -1201,10 +1207,41 @@ ul {
 
 
 
+/**********************************************************************POLITIQUE***********************************************************/ 
+
+
+
+
+
+
+.politique .max-width{
+  padding-top: 180px; 
+  padding-bottom: 180px; 
+
+}
+
+
+.politique .max-width p{ 
+  padding-bottom: 30px; 
+
+}
+
+.politique .max-width { 
+  padding-top: 180px; 
+  padding-bottom: 180px; 
+
+}
+
+
+
+
+
 
 
 
 /**********************************************************************MEDIA***********************************************************/ 
+
+
 
 
 
