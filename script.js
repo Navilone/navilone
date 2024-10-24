@@ -66,6 +66,9 @@ $(document).ready(function(){
     });
 });
 
+// *****************************************Animation focus de contact ******************************************* //
+
+
 const inputs = document.querySelectorAll(".input");
 
 function focusFunc() {
@@ -120,6 +123,10 @@ tabButtons.forEach(button => {
 
 var copy = document.querySelector(".logos-slide").cloneNode(true);
 document.querySelector(".logos").appendChild(copy);
+
+
+
+// *****************************************Section article ******************************************* //
 
 
 
