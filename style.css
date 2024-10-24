@@ -298,7 +298,7 @@ section .title::after {
   color: var(--second-color);
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
   background-color: var(--main-bg-color);
-  border-radius: 20px;
+  border-radius: 10px;
 
 }
 
@@ -310,7 +310,8 @@ section .title::after {
   color: #fff;
 }
 .navbar.sticky .max-width ul li a {
-  color:var(--main-bg-color)
+  color:var(--main-bg-color); 
+  transition: all .3s ease;
 }
 
 .navbar .max-width .logo a img:nth-child(2) {
@@ -494,7 +495,7 @@ section .title::after {
 
 .services .max-width h2::after{
 
-  content: "Ce que peut vous apporter Navilone";
+  content: "Ce que Navilone peut vous apporter";
 
 }
 
@@ -503,9 +504,11 @@ section .title::after {
   background: var(--second-color);
   text-align: center;
   border-radius: 26px;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;  padding: 50px 25px;
   transition: all 0.3s ease;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;  padding: 50px 25px;
+
 }
+
 .services .serv-content .card:hover {
   background: var(--main-bg-color);
   transform: translateY(-10px);
@@ -1671,7 +1674,7 @@ ul {
   }
 
   .navbar.sticky .max-width ul li a {
-    color:var(--second-color)
+    color:var(--second-color); 
   }
   
 }
