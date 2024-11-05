@@ -950,6 +950,12 @@ section .title::after {
   color: var(--second-color)
 }
 
+.contact-form form .title-contact{
+  color: var(--second-color)
+}
+
+
+
 
 .circle {
   border-radius: 50%;
@@ -1124,13 +1130,14 @@ textarea.input {
   position: relative;
 }
 
+.contact-info p span{
+  font-size: 10px;
+}
+
 .contact-info .info .information p{
   padding: 5px;
 }
 
-.contact-info .title-contact {
-  color: var(--main-bg-color);
-}
 
 .text {
   color: #333;
@@ -1336,7 +1343,6 @@ ul {
 }
 .footer-col ul li a {
   font-size: 16px;
-  text-transform: capitalize;
   text-decoration: none;
   font-weight: 300;
   color: var(--second-color);
