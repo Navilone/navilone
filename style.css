@@ -699,7 +699,6 @@ section .title::after {
 
 .slider {
   width: 80px;
-  border-radius: .75rem;
   background-size: cover;
   cursor: pointer;
   overflow: hidden;
@@ -1493,6 +1492,11 @@ ul {
 }
 
 @media (max-width: 991px) {
+
+  .description h4{
+    font-size: 14px;
+  }
+
   .articles{
     display: none;
   }
@@ -1616,6 +1620,7 @@ ul {
   
   .description p {
     font-size: 10px;
+    width: 70%;
   }
 
   .wrapper .slide input:checked + label{
