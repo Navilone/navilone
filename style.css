@@ -249,8 +249,6 @@ section .title::after {
 
 
 
-
-
 .navbar {
   position: fixed;
   width: 100%;
@@ -1551,6 +1549,8 @@ ul {
   color: var(--second-color);
   padding-top: 5px;
   font-size: 10px;
+  height: 0;
+  opacity: 0;
 
   }
   
@@ -1564,7 +1564,7 @@ ul {
   }
   
   .article-mobile .am-slide input:checked + label {
-  height: 300px;
+  height: 500px;
   margin-top: 10px;
   
   }
@@ -1585,6 +1585,12 @@ ul {
   transform: rotate(180deg) !important;
   
   }
+
+  .article-mobile .am-slide input:checked + label .am-line .am-description p  {
+    opacity: 1;
+    height: 110px;
+    
+    }
   
   .am-slider[for="a1"] {
   background-image: url('images/bh.png');

@@ -127,7 +127,3 @@ document.querySelector(".logos").appendChild(copy);
 
 
 // *****************************************Section article ******************************************* //
-
-
-
-
