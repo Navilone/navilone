@@ -337,7 +337,7 @@ section .title::after {
 
 
 .menu-btn {
-  color: #fff;
+  color: var(--main-bg-color);
   font-size: 23px;
   cursor: pointer;
   display: none;
@@ -1633,7 +1633,9 @@ ul {
   
   .contact-button{
     position: relative; 
-
+    display: flex;
+    justify-content: space-between;
+    
   }
 
   .contact-button-contain{
@@ -1645,6 +1647,8 @@ ul {
     left: 10px; 
     max-width: 400px;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    align-items: center;
+    margin-bottom: 5px;
   }
   
   .contact-button img{
@@ -1677,9 +1681,11 @@ ul {
     display: block;
     z-index: 999;
   }
+  
   .menu-btn i.active:before {
     content: "\f00d";
   }
+
   .navbar .menu {
     position: fixed;
     height: 100vh;
