@@ -119,67 +119,6 @@ display: none;
 
 
 
-
-
-/**********************************************************************Cookie banner ***********************************************************************/
-
-.cookie-banner {
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  background-color: var(--main-bg-color);
-  color: var(--second-color);
-  padding: 15px;
-  text-align: center;
-  z-index: 1000;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column; 
-  gap: 10px
-}
-
-.cookie-banner p {
-  font-size: 16px;
-}
-
-.cookie-banner p a {
-  color: var(--main2-bg-color);
-  font-weight: bolder;
-  transition: .3s;
-}
-
-.cookie-banner p a:hover {
-  color: var(--second-color);
-  font-weight: 900;
-}
-
-.cookie-banner button {
-  background-color: var(--second-color);
-  color: var(--main-bg-color);
-  padding: 10px 15px; 
-  border-radius: 10px; 
-  cursor:pointer;
-  border:0px;
-  display: block;
-  width: fit-content; 
-  font-weight: 800;
-  text-transform: uppercase;
-}
-
-.cookie-banner button:active{
-  background-color: var(--second-color);
-  color: var(--main-bg-color);
-  padding: 8px 13px;
-}
-
-.cookie-banner button:hover{
-  background-color: var(--main-bg-color-color);
-  color: var(--second-color);
-  transform: scale(.99);
-  border: var(--second-color) solid .5px;
-}
-
 /**********************************************************************all similar content styling codes ***********************************************************************/
 
 
