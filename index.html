@@ -21,14 +21,9 @@
 
 
 
-    <!----------------------------------           bouton section             ------------------------------------->
+    <!----------------------------------           cookie section             ------------------------------------->
 
     
-    <div class ="trad-button">
-        <button onclick="setLanguage('en')">English</button>
-        <button onclick="setLanguage('fr')">Français</button>
-    </div>
-        
     <div class="contact-button">
       <div class="contact-button-contain">
       <a href="tel:+33184754535" class="call-button"><i class="fas fa-phone"></i></a>
@@ -40,14 +35,11 @@
         <i class="fas fa-angle-up"></i>
     </div>
 
-    <!----------------------------------           navbar section start             ------------------------------------->
-
-
     <nav class="navbar">
         <div class="max-width">
             <div class="logo"><a href="index.html"><img src="images/Navilone_logo_écriture.png" alt="logo" ><img src="images/Navilone_logo.png" alt="logo"></a></div>
             <ul class="menu">
-                <li><a href="#home" class="menu-btn" id="home"><i class="fas fa-home"></i></a></li>
+                <li><a href="#home" class="menu-btn" id="homee"><i class="fas fa-home"></i>Accueil</a></li>
                 <li><a href="#apropos" class="menu-btn" id="about">A propos</a></li>
                 <li><a href="#articles" class="menu-btn" id="news">Articles </a></li>
                 <li><a href="#services" class="menu-btn">Services</a></li>
@@ -56,6 +48,12 @@
             <div class="menu-btn">
                 <i class="fas fa-bars"></i>
             </div>
+
+            <div class ="trad-button">
+              <button onclick="setLanguage('en')">English</button>
+              <button onclick="setLanguage('fr')">Français</button>
+            </div>
+        
         </div>
     </nav>
 
@@ -70,16 +68,17 @@
     <section class="home" id="home">
         <div class="max-width">
             <div class="home-content">
-                <div class="text-1">Bienvenue sur le site de</div>
+                <div class="text-1" id="welcome"></div>
                 <div class="text-2">NAVILONE</div> 
-                <div class="text-3">Nous sommes experts en </br><span class="typing"></span></div>
-                <a href="#contact" id="apropos">Contactez-moi</a>
+                <div class="text-3" id="expert"></div></br>
+                <div><span class="typing"></span></div>
+                <a href="#contact" id="contacten"></a>
             </div>
         </div>
     </section>
 
 
-    <section class="services">
+    <section class="services" id="apropos"> 
         <div class="max-width">
             <h2 class="title">Nos valeurs</h2>
               <div class="serv-content">
@@ -502,7 +501,5 @@
    </footer>
 
     <script src="script.js"></script>
-    <script src="script-cookie.js"></script>
     <script src="trad.js"></script>
-</body>
-</html>
+rc="script.js"></script>
