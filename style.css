@@ -263,7 +263,32 @@ section .title::after {
   display: flex;
 }
 
+.flag-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 5px;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
 
+  .flag-button:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  }
+
+  .flag-uk {
+    background: linear-gradient(90deg, red 33%, white 33%, white 66%, blue 66%);
+    border: 2px solid #00008b; /* Bleu foncé du drapeau */
+  }
+
+  .flag-fr {
+    background: linear-gradient(90deg, blue 33%, white 33%, white 66%, red 66%);
+    border: 2px solid #0055a4; 
+  }
 
 
 
