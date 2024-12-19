@@ -87,34 +87,49 @@ html {
 
 
 
-
-.contact-button-contain{
+.contact-button-contain {
   position: fixed;
   top: 50%;
+  right: 20px; /* Ajout de la position à droite */
   display: flex;
   flex-direction: column;
-  background:  var(--main2-bg-color);
+  background: white;
   padding: 20px;
   border-radius: 20px;
-  color: var(--second-color);
+  color: black;
   z-index: 5;
-
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ajout d'une ombre pour un effet de profondeur */
+  transition: transform 0.3s ease; /* Ajout d'une transition pour un effet de survol */
 }
 
-.contact-button-contain a i{
-  width: 20px;
-
+.contact-button-contain:hover {
+  transform: translateY(-5px); /* Déplacement vers le haut lors du survol */
 }
 
 .contact-button-contain a {
-  
-  color: var(--second-color);
+  color: black;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px; /* Espacement entre les boutons */
+  padding: 10px;
+  border-radius: 10px;
+  transition: background-color 0.3s ease, color 0.3s ease; /* Transition pour le changement de couleur */
+}
 
+.contact-button-contain a:hover {
+  background-color: black;
+  color: white;
+}
+
+.contact-button-contain a i {
+  width: 20px;
+  font-size: 20px; /* Ajustement de la taille de l'icône */
 }
 
 .contact-button img {
-  
-display: none;
+  display: none;
 }
 
 
