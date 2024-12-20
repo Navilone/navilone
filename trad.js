@@ -43,7 +43,7 @@ const translations = {
     document.getElementById('art1tit').innerText = translations[lang].art1tit;
     document.getElementById('art1tex').innerText = translations[lang].art1tex;
     document.getElementById('art2tit').innerText = translations[lang].art2tit;
-    document.getElementById('art3tex').innerText = translations[lang].art3tex;
+    document.getElementById('art2tex').innerText = translations[lang].art2tex;
     document.getElementById('art3tit').innerText = translations[lang].art3tit;
     document.getElementById('art3tex').innerText = translations[lang].art3tex;
       
