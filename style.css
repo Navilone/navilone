@@ -83,7 +83,7 @@ html {
 
 
 
-/**********************************************************************btn fixed ***********************************************************************/
+/********************************************************************** CONTACT-button ***********************************************************************/
 
 
 
@@ -98,7 +98,7 @@ html {
   border-radius: 20px;
   color: var(--second-color);
   z-index: 5;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ajout d'une ombre pour un effet de profondeur */
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
   transition: transform 0.3s ease; /* Ajout d'une transition pour un effet de survol */
 }
 
@@ -107,7 +107,7 @@ html {
 }
 
 .contact-button-contain a {
-  color: var(--main-bg-color);
+  color: var(--second-color);
   text-decoration: none;
   display: flex;
   align-items: center;
@@ -119,8 +119,8 @@ html {
 }
 
 .contact-button-contain a:hover {
-  background-color: var(--second-color);
-  color: white;
+  background-color: var(--main-bg2-color);
+  color: var(--main-bg-color);
 }
 
 .contact-button-contain a i {
