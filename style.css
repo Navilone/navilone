@@ -93,10 +93,10 @@ html {
   right: 20px; /* Ajout de la position à droite */
   display: flex;
   flex-direction: column;
-  background: white;
+  background: var(--main-bg-color);
   padding: 20px;
   border-radius: 20px;
-  color: black;
+  color: var(--second-color);
   z-index: 5;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ajout d'une ombre pour un effet de profondeur */
   transition: transform 0.3s ease; /* Ajout d'une transition pour un effet de survol */
@@ -119,7 +119,7 @@ html {
 }
 
 .contact-button-contain a:hover {
-  background-color: black;
+  background-color: var(--second-color);
   color: white;
 }
 
