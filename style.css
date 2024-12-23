@@ -99,12 +99,16 @@ html {
   color: var(--second-color);
   z-index: 5;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  border: 7px double #ffffff;
   transition: transform 0.3s ease; /* Ajout d'une transition pour un effet de survol */
+}
+
+.contact-button-contain:hover a{
+  transform: scale(1.2);
 }
 
 .contact-button-contain:hover {
   transform: translateY(-5px);
-  background:var(--second-color);/* Déplacement vers le haut lors du survol */
 }
 
 .contact-button-contain a {
@@ -114,15 +118,16 @@ html {
   align-items: center;
   justify-content: center;
   border-radius: 10px;
-  border: 7px double #ffffff;
+  padding: 10px;
   transition: background-color 0.3s ease, color 0.3s ease; /* Transition pour le changement de couleur */
 }
 
 .contact-button-contain a:hover {
-  color: var(--main-bg2-color);
+  color: var(--main2-bg-color);
 }
+
 .contact-button-contain a:active{
-  transform: scale(1.2);
+  transform: scale(.5);
   transition: ease-in .2s;
 }
 
