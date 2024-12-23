@@ -103,7 +103,8 @@ html {
 }
 
 .contact-button-contain:hover {
-  transform: translateY(-5px); /* Déplacement vers le haut lors du survol */
+  transform: translateY(-5px);
+  background:var(--second-color);/* Déplacement vers le haut lors du survol */
 }
 
 .contact-button-contain a {
