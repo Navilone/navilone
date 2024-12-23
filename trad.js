@@ -20,18 +20,12 @@ const translations = {
         arttit4:"Improve your performance by going digital",
         arttit5:"Use the power of data analysis with Power BI",
         arttit6:"Integrate Microsoft 365 seamlessly with your business systems",
-        arttex1:"Discover how Microsoft Business Central can simplify your business management by centralizing all your processes in a single platform. This solution enables you to automate tasks, improve financial visibility and make decisions based on real-time data.
-",
-        arttex2:"Choosing Dynamics 365 for customer relationship management (CRM) means opting for a complete solution that unifies sales, marketing and customer service. Gain a 360° view of your customers, automate tasks, personalize interactions and make decisions based on real-time data to improve engagement and loyalty.
-",
-        arttex3:"nhance your processes with Power Platform, a suite of Microsoft tools for creating customized applications, automating repetitive tasks and analyzing data. Easily connect your different information sources, optimize your workflows and gain in efficiency to accelerate your company's digital transformation.
-",
-        arttex4:"Digital transformation improves your business performance by automating tasks, optimizing processes and facilitating access to real-time data. It enables you to better understand customer needs, accelerate decision-making and personalize offers, all of which increase efficiency and boost your company's growth.
-",
-        arttex5:"Discover the power of data analysis with Power BI, a Microsoft tool that transforms your data into actionable information. Create interactive dashboards, visualize trends in real time and make informed decisions to boost your performance. Simplify complex analysis and easily share insights with your team.
-",
-        arttex6:"Microsoft 365 integration with your business systems delivers a seamless experience, connecting your productivity tools to your business applications. Easily access data, collaborate in real time and automate workflows. This integration boosts efficiency, reduces silos and optimizes your operations.
-",
+        arttex1:"Discover how Microsoft Business Central can simplify your business management by centralizing all your processes in a single platform. This solution enables you to automate tasks, improve financial visibility and make decisions based on real-time data.",
+        arttex2:"Choosing Dynamics 365 for customer relationship management (CRM) means opting for a complete solution that unifies sales, marketing and customer service. Gain a 360° view of your customers, automate tasks, personalize interactions and make decisions based on real-time data to improve engagement and loyalty.",
+        arttex3:"nhance your processes with Power Platform, a suite of Microsoft tools for creating customized applications, automating repetitive tasks and analyzing data. Easily connect your different information sources, optimize your workflows and gain in efficiency to accelerate your company's digital transformation.",
+        arttex4:"Digital transformation improves your business performance by automating tasks, optimizing processes and facilitating access to real-time data. It enables you to better understand customer needs, accelerate decision-making and personalize offers, all of which increase efficiency and boost your company's growth.",
+        arttex5:"Discover the power of data analysis with Power BI, a Microsoft tool that transforms your data into actionable information. Create interactive dashboards, visualize trends in real time and make informed decisions to boost your performance. Simplify complex analysis and easily share insights with your team.",
+        arttex6:"Microsoft 365 integration with your business systems delivers a seamless experience, connecting your productivity tools to your business applications. Easily access data, collaborate in real time and automate workflows. This integration boosts efficiency, reduces silos and optimizes your operations.",
 
     },    
     
