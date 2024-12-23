@@ -80,27 +80,27 @@
 
     <section class="services" id="apropos"> 
         <div class="max-width">
-            <h2 class="title">Nos valeurs</h2>
+            <h2 class="title" id="valtitle"></h2>
               <div class="serv-content">
                 <div class="card">
                     <div class="box">
                         <i class="fas fa-paint-brush"></i>
-                        <div class="text" id ="art1tit"></div>
-                        <p id ="art1tex"></p>
+                        <div class="text" id ="val1tit"></div>
+                        <p id ="val1tex"></p>
                     </div>
                 </div>
                 <div class="card">
                     <div class="box">
                         <i class="fas fa-chart-line"></i>
-                        <div class="text"  id ="art2tit"></div>
-                        <p id ="art2tex"></p>
+                        <div class="text"  id ="val2tit"></div>
+                        <p id ="val2tex"></p>
                     </div>
                 </div>
                 <div class="card">
                     <div class="box">
                         <i class="fas fa-code" id="articles"></i>
-                        <div class="text"  id ="art3tit"></div>
-                        <p id ="art3tex"></p>
+                        <div class="text"  id ="val3tit"></div>
+                        <p id ="val3tex"></p>
                     </div>
                 </div>
               </div>
@@ -118,13 +118,13 @@
 
 
     <section class="articles">
-      <h2 class="title">Nos articles importants</h2>
+      <h2 class="title" id"arttitle"></h2>
       <div class="container-articles">
       
         <div class="articlesl"> 
           <div class="tab-button" data-tab="1">
             <div class="case-contain">
-              <p class="tab-titre">Optimisez votre gestion d'entreprise avec Microsoft Business Central</p>
+              <p class="tab-titre" id="arttit1"></p>
               <svg width="50" height="50" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
                 <path d="M 30 10 L 70 50 L 30 90" stroke="var(--second-color)" stroke-width="5" fill="transparent" />
             </svg>
@@ -132,7 +132,7 @@
           </div>
           <div class="tab-button" data-tab="2">
             <div class="case-contain">
-              <p class="tab-titre">Choisissez Dynamics 365 pour la gestion de relation client (CRM)</p>
+              <p class="tab-titre" id="arttit2"></p>
               <svg width="50" height="50" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
                 <path d="M 30 10 L 70 50 L 30 90" stroke="var(--second-color)" stroke-width="5" fill="transparent" />
             </svg>
@@ -140,7 +140,7 @@
           </div>
           <div class="tab-button" data-tab="3">
             <div class="case-contain">
-              <p class="tab-titre">Améliorez vos processus grâce à Power Platform</p>
+              <p class="tab-titre" id="arttit3"></p>
               <svg width="50" height="50" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
                 <path d="M 30 10 L 70 50 L 30 90" stroke="var(--second-color)" stroke-width="5" fill="transparent" />
             </svg>
@@ -148,14 +148,14 @@
           </div>
           <div class="tab-button" data-tab="4">
             <div class="case-contain">
-              <p class="tab-titre">Améliorez vos performances en la digitalisant</p>
+              <p class="tab-titre" id="arttit4"></p>
               <svg width="50" height="50" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
                 <path d="M 30 10 L 70 50 L 30 90" stroke="var(--second-color)" stroke-width="5" fill="transparent" /></svg>
             </div>
           </div>
           <div class="tab-button" data-tab="5">
             <div class="case-contain">
-              <p class="tab-titre">Utilisez la puissance de l’analyse de données avec Power BI</p>
+              <p class="tab-titre" id="arttit5"></p>
               <svg width="50" height="50" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
                 <path d="M 30 10 L 70 50 L 30 90" stroke="var(--second-color)" stroke-width="5" fill="transparent" />
             </svg>
@@ -163,7 +163,7 @@
           </div>
           <div class="tab-button" data-tab="6">
             <div class="case-contain">
-              <p class="tab-titre">Intégrez Microsoft 365 de manière transparente à vos systèmes d'entreprise</p>
+              <p class="tab-titre" id="arttit6"></p>
               <svg width="50" height="50" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
                 <path d="M 30 10 L 70 50 L 30 90" stroke="var(--second-color)" stroke-width="5" fill="transparent" />
             </svg>
@@ -176,43 +176,37 @@
           <div class="content" id="tab-1">
             <div class="visuel">
               <img src="images/vv.png" alt="illustration des articles">
-              <p> Découvrez comment Microsoft Business Central peut simplifier la gestion de votre entreprise en centralisant tous vos processus en une seule plateforme. 
-                Cette solution permet d'automatiser les tâches, d'améliorer la visibilité financière et de prendre des décisions basées sur des données en temps réel.</p>
+              <p id="arttex1"></p>
             </div>
           </div>
           <div class="content" id="tab-2">
             <div class="visuel">
             <img src="images/fd.png" alt="illustration des articles">
-            <p>Choisir Dynamics 365 pour la gestion de la relation client (CRM), c'est opter pour une solution complète qui unifie les ventes, le marketing et le service client. 
-              Bénéficiez d'une vue à 360° sur vos clients, automatisez les tâches, personnalisez les interactions et prenez des décisions basées sur des données en temps réel pour améliorer l'engagement et la fidélisation.</p>
+            <p id="arttex2"></p>
             </div>
           </div>
           <div class="content" id="tab-3">
             <div class="visuel">
             <img src="images/vf.png" alt="illustration des articles">
-            <p>Améliorez vos processus avec Power Platform, une suite d'outils Microsoft qui permet de créer des applications personnalisées, d'automatiser les tâches répétitives et d'analyser les données. 
-              Connectez facilement vos différentes sources d'information, optimisez vos flux de travail et gagnez en efficacité pour accélérer la transformation digitale de votre entreprise.</p>
+            <p id="arttex3"></p>
             </div>
           </div>
           <div class="content" id="tab-4">
             <div class="visuel">
             <img src="images/hv.png" alt="illustration des articles">
-            <p>La transformation digitale améliore vos performances commerciales en automatisant les tâches, optimisant les processus et facilitant l'accès aux données en temps réel. 
-              Elle permet de mieux comprendre les besoins des clients, d'accélérer la prise de décision et de personnaliser les offres, ce qui augmente l'efficacité et booste la croissance de votre entreprise.</p>
+            <p id="arttex4"></p>
             </div>
           </div>
           <div class="content" id="tab-5">
             <div class="visuel">
             <img src="images/vg.png" alt="illustration des articles">
-            <p>Découvrez la puissance de l'analyse de données avec Power BI, un outil Microsoft qui transforme vos données en informations exploitables. Créez des tableaux de bord interactifs, visualisez les tendances en temps réel et prenez des décisions éclairées pour booster vos performances. 
-              Simplifiez l'analyse complexe et partagez facilement les insights avec votre équipe.</p>
+            <p id="arttex5"></p>
             </div>
           </div>
           <div class="content" id="tab-6">
             <div class="visuel">
             <img src="images/hv.png" alt="illustration des articles">
-            <p>L'intégration de Microsoft 365 avec vos systèmes d'entreprise offre une expérience fluide, connectant vos outils de productivité à vos applications métier. Accédez facilement aux données, collaborez en temps réel et automatisez les flux de travail. 
-              Cette intégration renforce l'efficacité, réduit les silos et optimise vos opérations.</p>
+            <p id="arttex6"></p>
             </div>
           </div>
         </div>
