@@ -1,8 +1,11 @@
 const translations = {
     en: {
-        home:"Home",
+        homee:"Home",
         about:"About",
-        news:"News", 
+        news:"News",
+        homee:"Home",
+        aboute:"About",
+        newss:"News", 
         welcome:"Welcome to the website of",
         expert:"We are expert in",
         contacten:"Contact us", 
@@ -42,9 +45,12 @@ const translations = {
     },    
     
     fr: { 
-        home:"Accueil",
+        homee:"Accueil",
         about: "A propos",
         news:"Articles",
+        homeee:"Accueil",
+        aboute: "A propos",
+        newss:"Articles",
         welcome:"Bienvenue sur le site de",
         expert:"Nous sommes experts en",
         contacten:"Contactez-moi",
@@ -85,9 +91,12 @@ const translations = {
   };
   
   function setLanguage(lang) {
-    document.getElementById('homee').innerText = translations[lang].home;
+    document.getElementById('homee').innerText = translations[lang].homee;
     document.getElementById('about').innerText = translations[lang].about;
     document.getElementById('news').innerText = translations[lang].news;
+    document.getElementById('homeee').innerText = translations[lang].homeee;
+    document.getElementById('aboute').innerText = translations[lang].aboutt;
+    document.getElementById('newss').innerText = translations[lang].newss;
     document.getElementById('welcome').innerText = translations[lang].welcome;
     document.getElementById('expert').innerText = translations[lang].expert;
     document.getElementById('contacten').innerText = translations[lang].contacten;
