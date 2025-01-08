@@ -293,7 +293,7 @@ section .title::after {
       padding: 2px 5px;
       font-size: 16px;
       font-family: Arial, sans-serif;
-      background-color: #f3f3f3;
+      background-color: var(--main2-bg-color);
       border: 1px solid #ccc;
       border-radius: 8px;
       cursor: pointer;
@@ -304,10 +304,15 @@ section .title::after {
       background-color: #e0e0e0;
   }
 
+.flag-button:active{
+      transform: scale(0.3);
+  }
+
+
 .trad-button{
         display: flex;
         gap : 2px
-    }
+  }
 
 
 /****************************         menu btn styling          *******************************/
