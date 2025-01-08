@@ -3,7 +3,7 @@ const translations = {
         homee:"Home",
         about:"About",
         news:"News",
-        homee:"Home",
+        homeee:"Home",
         aboute:"About",
         newss:"News", 
         welcome:"Welcome to the website of",
