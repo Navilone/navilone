@@ -42,6 +42,16 @@ const translations = {
         arttex4m:"Digital transformation improves your business performance by automating tasks, optimizing processes and facilitating access to real-time data. It enables you to better understand customer needs, accelerate decision-making and personalize offers, all of which increase efficiency and boost your company's growth.",
         arttex5m:"Discover the power of data analysis with Power BI, a Microsoft tool that transforms your data into actionable information. Create interactive dashboards, visualize trends in real time and make informed decisions to boost your performance. Simplify complex analysis and easily share insights with your team.",
         arttex6m:"Microsoft 365 integration with your business systems delivers a seamless experience, connecting your productivity tools to your business applications. Easily access data, collaborate in real time and automate workflows. This integration boosts efficiency, reduces silos and optimizes your operations.",
+        servtitle:"Our Services",
+        servtitle1:"Needs Analysis",
+        servtitle2:"Tools required according to your needs",
+        servtitle3:"Implementation",
+        servtitle4:"Users training",
+        servp1:"Understand your field of activity, foresee opportunities for its development.",
+        servp2:"After a thorough analysis, we'll be able to offer you the best solutions.",
+        servp3:"The installation of modern tools to make it easier for you to manage every movement in your company.",
+        servp4:"All people who will be required to use these tools will be trained.",
+
     },    
     
     fr: { 
@@ -87,6 +97,17 @@ const translations = {
         arttex4m:"La transformation digitale améliore vos performances commerciales en automatisant les tâches, optimisant les processus et facilitant l'accès aux données en temps réel. Elle permet de mieux comprendre les besoins des clients, d'accélérer la prise de décision et de personnaliser les offres, ce qui augmente l'efficacité et booste la croissance de votre entreprise.",
         arttex5m:"Découvrez la puissance de l'analyse de données avec Power BI, un outil Microsoft qui transforme vos données en informations exploitables. Créez des tableaux de bord interactifs, visualisez les tendances en temps réel et prenez des décisions éclairées pour booster vos performances. Simplifiez l'analyse complexe et partagez facilement les insights avec votre équipe.",
         arttex6m:"L'intégration de Microsoft 365 avec vos systèmes d'entreprise offre une expérience fluide, connectant vos outils de productivité à vos applications métier. Accédez facilement aux données, collaborez en temps réel et automatisez les flux de travail. Cette intégration renforce l'efficacité, réduit les silos et optimise vos opérations.",
+        servtitle:"Nos services",
+        servtitle1:"Analyse du besoin",
+        servtitle2:"Outils nécessaires selon les besoins",
+        servtitle3:"Mise en place",
+        servtitle4:"Formation des utilisateurs",
+        servp1:"Comprendre votre domaine d'activité, entrevoir les possibilités pour son développement.",
+        servp2:"Après une analyse pertinente nous serons à même de vous proposer les meilleures solutions.",
+        servp3:"L'installation d'outils modernes pour vous faciliter la gestion de tout mouvement dans votre entreprise.",
+        servp4:"Toutes les personnes qui seront amenées à utiliser ces outils seront formées.",
+        
+
     },
   };
   
@@ -133,6 +154,16 @@ const translations = {
     document.getElementById('arttex4m').innerText = translations[lang].arttex4m;
     document.getElementById('arttex5m').innerText = translations[lang].arttex5m;
     document.getElementById('arttex6m').innerText = translations[lang].arttex6m;
+    document.getElementById('servtitle').innerText = translations[lang].servtitle;
+    document.getElementById('servtitle1').innerText = translations[lang].servtitle1;
+    document.getElementById('servtitle2').innerText = translations[lang].servtitle2;
+    document.getElementById('servtitle3').innerText = translations[lang].servtitle3;
+    document.getElementById('servtitle4').innerText = translations[lang].servtitle4;
+    document.getElementById('servp1').innerText = translations[lang].servp1;
+    document.getElementById('servp2').innerText = translations[lang].servp2;
+    document.getElementById('servp3').innerText = translations[lang].servp3;
+    document.getElementById('servp4').innerText = translations[lang].servp4;
+
 
 
 
