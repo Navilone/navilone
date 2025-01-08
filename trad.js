@@ -51,6 +51,13 @@ const translations = {
         servp2:"After a thorough analysis, we'll be able to offer you the best solutions.",
         servp3:"The installation of modern tools to make it easier for you to manage every movement in your company.",
         servp4:"All people who will be required to use these tools will be trained.",
+        contitle:"Talk to us",
+        conp1:"Leave us your information and we will contact you back as soon as possible",
+        conp2:"*The collected information from this form will be carefully handled to answer your needs",
+        conp3:"Contact us also in here :",
+        conp4:"Name",
+        conp5:"Submit",
+
 
     },    
     
@@ -106,6 +113,12 @@ const translations = {
         servp2:"Après une analyse pertinente nous serons à même de vous proposer les meilleures solutions.",
         servp3:"L'installation d'outils modernes pour vous faciliter la gestion de tout mouvement dans votre entreprise.",
         servp4:"Toutes les personnes qui seront amenées à utiliser ces outils seront formées.",
+        contitle:"Nous sommes à votre disposition",
+        conp1:"Laissez-nous vos coordonnées et nous vous contacterons au plus vite ",
+        conp2:"*Les informations recueillies à partir de ce formulaire font l'objet d'un traitement informatisé destiné à répondre à votre demande.",
+        conp3:"Contactez-nous ici aussi : ",
+        conp4:"Nom",
+        conp5:"Envoyer",
         
 
     },
@@ -163,6 +176,12 @@ const translations = {
     document.getElementById('servp2').innerText = translations[lang].servp2;
     document.getElementById('servp3').innerText = translations[lang].servp3;
     document.getElementById('servp4').innerText = translations[lang].servp4;
+    document.getElementById('contitle').innerText = translations[lang].contitle;
+    document.getElementById('conp1').innerText = translations[lang].conp1;
+    document.getElementById('conp2').innerText = translations[lang].conp2;
+    document.getElementById('conp3').innerText = translations[lang].conp3;
+    document.getElementById('conp4').innerText = translations[lang].conp4;
+    document.getElementById('conp5').innerText = translations[lang].conp5;
 
 
 
