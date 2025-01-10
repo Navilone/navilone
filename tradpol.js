@@ -28,9 +28,6 @@
         foo1:"Transformez vos idées en succès grâce à une gestion de projet experte, sur-mesure et orientée résultats.",
         foo2:"Mentions légales",
         foo3:"Politique de confidentialité",
-
-        
-
     },
   };
   
