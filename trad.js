@@ -127,10 +127,10 @@ const translations = {
         conp5:"Envoyer",
         footitle1:"La société Navilone",
         footitle2:"Informations importantes",
-        footitle3:'Tous droits réservés',
+        footitle3:"Tous droits réservés",
         foo1:"Transformez vos idées en succès grâce à une gestion de projet experte, sur-mesure et orientée résultats.",
         foo2:"Mentions légales",
-        foo3:'Politique de confidentialité',
+        foo3:"Politique de confidentialité",
 
         
 
