@@ -988,8 +988,12 @@ textarea.input {
   position: relative;
 }
 
-.contact-info p span{
-  font-size: 10px;
+.contact-info .text2{
+  font-size: 11px;
+}
+
+.contact-info .text{
+  margin: 1.5rem 0 1rem 0;
 }
 
 .contact-info .info .information p{
