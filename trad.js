@@ -43,6 +43,7 @@ const translations = {
         arttex5m:"Discover the power of data analysis with Power BI, a Microsoft tool that transforms your data into actionable information. Create interactive dashboards, visualize trends in real time and make informed decisions to boost your performance. Simplify complex analysis and easily share insights with your team.",
         arttex6m:"Microsoft 365 integration with your business systems delivers a seamless experience, connecting your productivity tools to your business applications. Easily access data, collaborate in real time and automate workflows. This integration boosts efficiency, reduces silos and optimizes your operations.",
         servtitle:"Our Services",
+        valtitle2:"What Navilone can offer you",
         servtitle1:"Needs Analysis",
         servtitle2:"Tools required according to your needs",
         servtitle3:"Implementation",
@@ -111,6 +112,7 @@ const translations = {
         arttex5m:"Découvrez la puissance de l'analyse de données avec Power BI, un outil Microsoft qui transforme vos données en informations exploitables. Créez des tableaux de bord interactifs, visualisez les tendances en temps réel et prenez des décisions éclairées pour booster vos performances. Simplifiez l'analyse complexe et partagez facilement les insights avec votre équipe.",
         arttex6m:"L'intégration de Microsoft 365 avec vos systèmes d'entreprise offre une expérience fluide, connectant vos outils de productivité à vos applications métier. Accédez facilement aux données, collaborez en temps réel et automatisez les flux de travail. Cette intégration renforce l'efficacité, réduit les silos et optimise vos opérations.",
         servtitle:"Nos services",
+        valtitle2:"Ce que Navilone peut vous offrir",
         servtitle1:"Analyse du besoin",
         servtitle2:"Outils nécessaires selon les besoins",
         servtitle3:"Mise en place",
@@ -148,6 +150,7 @@ const translations = {
     document.getElementById('expert').innerText = translations[lang].expert;
     document.getElementById('contacten').innerText = translations[lang].contacten;
     document.getElementById('valtitle').innerText = translations[lang].valtitle;
+    document.getElementById('valtitle2').innerText = translations[lang].valtitle2;
     document.getElementById('val1tit').innerText = translations[lang].val1tit;
     document.getElementById('val1tex').innerText = translations[lang].val1tex;
     document.getElementById('val2tit').innerText = translations[lang].val2tit;
@@ -181,8 +184,8 @@ const translations = {
     document.getElementById('arttex5m').innerText = translations[lang].arttex5m;
     document.getElementById('arttex6m').innerText = translations[lang].arttex6m;
     document.getElementById('servtitle').innerText = translations[lang].servtitle;
-    document.getElementById('servtitle1').innerText = translations[lang].servtitle1;
     document.getElementById('servtitle2').innerText = translations[lang].servtitle2;
+    document.getElementById('servtitle1').innerText = translations[lang].servtitle1;
     document.getElementById('servtitle3').innerText = translations[lang].servtitle3;
     document.getElementById('servtitle4').innerText = translations[lang].servtitle4;
     document.getElementById('servp1').innerText = translations[lang].servp1;

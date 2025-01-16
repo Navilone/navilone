@@ -86,7 +86,6 @@ html {
 /********************************************************************** CONTACT-button ***********************************************************************/
 
 
-
 .contact-button-contain {
   position: fixed;
   top: 50%;
@@ -173,10 +172,11 @@ footer {
 section .title {
   position: relative;
   text-align: center;
-  font-size: 40px;
-  font-weight: 500;
   padding-bottom: 50px;
   padding-top: 50px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 40px;
 }
 
 section .title::before {
@@ -249,7 +249,7 @@ section .title::after {
   display: block;
   color: var(--main-bg-color);
   font-size: 18px;
-  font-weight: 500;
+  font-weight: bold;
   margin-left: 25px;
   padding: 10px;
 }
@@ -476,11 +476,9 @@ section .title::after {
   padding-bottom: 20px;
 }
 
-
-.services .max-width h2::after{
-
-  content: "Ce que Navilone peut vous apporter";
-
+.services h3{
+  text-align: center;
+  padding-bottom: 20px;
 }
 
 .services .serv-content .card {
@@ -550,10 +548,6 @@ section .title::after {
   margin: auto;
 }
 
-
-.articles h2{
-  text-align: center;
-}
 
 .articlesl{
   width: 50%; 

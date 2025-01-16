@@ -1,3 +1,6 @@
+//-------------------------------------------------------------------Navbar----------------------------------------------------------------------------//
+
+
 $(document).ready(function(){
     $(window).scroll(function(){
         // sticky navbar on scroll script
@@ -33,12 +36,18 @@ $(document).ready(function(){
         $('.menu-btn .fa-bars').toggleClass("active");
     });
 
+
+//-------------------------------------------------------------------Typing----------------------------------------------------------------------------//
+
+
+
+    //strings: ["Conseils pour PME", "Gestion de projet", "Installation d'outils modernes"]
     // typing text animation script
     var typed = new Typed(".typing", {
-        strings: ["Conseils pour PME", "Gestion de projet", "Installation d'outils modernes"],
-        typeSpeed: 100,
-        backSpeed: 60,
-        loop: true
+      strings : ["Advice for SMEs", "Project management", "Installation of modern tools"],
+      typeSpeed: 100,
+      backSpeed: 60,
+      loop: true
     });
 });
 
@@ -102,4 +111,4 @@ document.querySelector(".logos").appendChild(copy);
 
 
 
-// *****************************************Section article ******************************************* //
+// *****************************************Fin ******************************************* //
