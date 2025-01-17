@@ -582,6 +582,11 @@ section .title::after {
   color: var(--second-color);
 }
 
+.tab-button.active .case-contain svg path{
+  transform: rotate(180deg);
+  transform-origin: center;
+  transition: .5s;
+}
 
 
 
@@ -621,12 +626,39 @@ section .title::after {
 
 .articlesr .content .visuel p{
   position : absolute;
-  bottom: 0;
+  bottom: 50px;
+  left: 50px;
   border-radius: 20px;
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.6);
   padding: 20px;
   backdrop-filter: blur(10px);
   color: var(--second-color);
+  width: 250px;
+  opacity: 0;
+  transition: .5s;
+}
+
+
+
+.articlesr .content.active .visuel p{
+  opacity: 1;
+  transform-origin: center;
+  animation: fadeInRotate 0.5s ease-in-out forwards;
+}
+
+@keyframes fadeInRotate {
+  0% {
+    opacity: 0;
+    transform: scale(0.5) translateX(-50px);
+  }
+  50% {
+    opacity: 0.5;
+    transform: scale(1) translateX(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1) translateX(50px);
+  }
 }
 
 .articlesr .content .visuel .text-articles{
@@ -640,13 +672,6 @@ section .title::after {
 
 .article-mobile{
   display:none
-}
-
-
-
-@media (max-width: 991px) {
-
-  
 }
 
 /****************************          about section styling             *******************************/
