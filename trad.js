@@ -77,7 +77,7 @@ const translations = {
         newss:"Articles",
         welcome:"Bienvenue sur le site de",
         expert:"Nous sommes experts en",
-        contacten:"Contactez-moi",
+        contacten:"Contactez-nous",
         valtitle :"Nos valeurs",
         val1tit:"Conseil pour PME",
         val1tex:"Nous proposons des services de conseil en gestion de projet qui répondent aux besoins spécifiques de votre entreprise.",
