@@ -140,6 +140,60 @@ html {
 }
 
 
+/**********************************************************************Cookie banner styling ***********************************************************************/
+
+
+.cook{
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  padding: 15px;
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--main-bg-color);
+}
+
+.cook .bandeau {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+}
+
+.cook .bandeau .band-t{
+  color: var(--second-color);
+  font-weight: bold;
+
+}
+
+.cook .bandeau .band-button button {
+  padding :10px; 
+  background-color: var(--second-color);
+  border-radius: 10px;
+  border: none;
+  color : var(--third-color); 
+  cursor: pointer;
+  width: fit-content;
+  transition: all ease .3s;
+  font-weight: bold;
+
+}
+
+.cook .bandeau .band-button button:hover {
+  transform: scale(1.05);
+  background-color: var(--main2-bg-color);
+}
+
+.cook .bandeau .band-button button:active{
+  transform: scale(0.9);
+  background-color: var(--second-color);
+  color :var(--main-bg-color); 
+}
+
+
 
 /**********************************************************************all similar content styling codes ***********************************************************************/
 

@@ -111,4 +111,29 @@ document.querySelector(".logos").appendChild(copy);
 
 
 
+// *****************************************Cookie Banner ******************************************* //
+
+document.addEventListener("DOMContentLoaded", function(){
+  const cookieBanner = document.getElementById("cookie-banner")
+  const acceptButton = document.getElementById("accept-cookies")
+
+  function executeScript(){
+      console.log("Déclenchement")
+  }
+
+  if(localStorage.getItem('cookiesAccepted') === 'true'){
+      cookieBanner.style.display = "none"
+      executeScript()
+  }
+
+  acceptButton.addEventListener('click', function(){
+      localStorage.setItem('cookiesAccepted', 'true')
+      cookieBanner.style.display = "none"
+      executeScript()
+  })
+})
+
+
+
 // *****************************************Fin ******************************************* //
+
